@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF15D2361D5DB4F1003B039C /* UIImageView+AsynDownloadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BF15D2351D5DB4F1003B039C /* UIImageView+AsynDownloadImage.m */; };
+		BF15D2381D5DD094003B039C /* p.png in Resources */ = {isa = PBXBuildFile; fileRef = BF15D2371D5DD094003B039C /* p.png */; };
 		BFDD1D7E1D5ABDB7005F129A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDD1D7D1D5ABDB7005F129A /* main.m */; };
 		BFDD1D811D5ABDB7005F129A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDD1D801D5ABDB7005F129A /* AppDelegate.m */; };
 		BFDD1D841D5ABDB7005F129A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDD1D831D5ABDB7005F129A /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		BFDD1D8C1D5ABDB7005F129A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDD1D8A1D5ABDB7005F129A /* LaunchScreen.storyboard */; };
 		BFDD1D971D5ABDB8005F129A /* OCLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDD1D961D5ABDB8005F129A /* OCLearningTests.m */; };
 		BFDD1DA21D5ABDB8005F129A /* OCLearningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDD1DA11D5ABDB8005F129A /* OCLearningUITests.m */; };
+		BFDD1DB11D5ABF27005F129A /* StaticTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDD1DB01D5ABF27005F129A /* StaticTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF15D2341D5DB4F1003B039C /* UIImageView+AsynDownloadImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AsynDownloadImage.h"; sourceTree = "<group>"; };
+		BF15D2351D5DB4F1003B039C /* UIImageView+AsynDownloadImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AsynDownloadImage.m"; sourceTree = "<group>"; };
+		BF15D2371D5DD094003B039C /* p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p.png; sourceTree = "<group>"; };
 		BFDD1D791D5ABDB7005F129A /* OCLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDD1D7D1D5ABDB7005F129A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFDD1D7F1D5ABDB7005F129A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,8 @@
 		BFDD1D9D1D5ABDB8005F129A /* OCLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDD1DA11D5ABDB8005F129A /* OCLearningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCLearningUITests.m; sourceTree = "<group>"; };
 		BFDD1DA31D5ABDB8005F129A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFDD1DAF1D5ABF27005F129A /* StaticTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticTest.h; sourceTree = "<group>"; };
+		BFDD1DB01D5ABF27005F129A /* StaticTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 		BFDD1D7B1D5ABDB7005F129A /* OCLearning */ = {
 			isa = PBXGroup;
 			children = (
+				BF15D2341D5DB4F1003B039C /* UIImageView+AsynDownloadImage.h */,
+				BF15D2351D5DB4F1003B039C /* UIImageView+AsynDownloadImage.m */,
+				BFDD1DAF1D5ABF27005F129A /* StaticTest.h */,
+				BFDD1DB01D5ABF27005F129A /* StaticTest.m */,
 				BFDD1D7F1D5ABDB7005F129A /* AppDelegate.h */,
 				BFDD1D801D5ABDB7005F129A /* AppDelegate.m */,
 				BFDD1D821D5ABDB7005F129A /* ViewController.h */,
@@ -117,6 +129,7 @@
 		BFDD1D7C1D5ABDB7005F129A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF15D2371D5DD094003B039C /* p.png */,
 				BFDD1D7D1D5ABDB7005F129A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -207,6 +220,7 @@
 				TargetAttributes = {
 					BFDD1D781D5ABDB7005F129A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H7T8R34T96;
 					};
 					BFDD1D911D5ABDB8005F129A = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -245,6 +259,7 @@
 			files = (
 				BFDD1D8C1D5ABDB7005F129A /* LaunchScreen.storyboard in Resources */,
 				BFDD1D891D5ABDB7005F129A /* Assets.xcassets in Resources */,
+				BF15D2381D5DD094003B039C /* p.png in Resources */,
 				BFDD1D871D5ABDB7005F129A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +287,9 @@
 			files = (
 				BFDD1D841D5ABDB7005F129A /* ViewController.m in Sources */,
 				BFDD1D811D5ABDB7005F129A /* AppDelegate.m in Sources */,
+				BF15D2361D5DB4F1003B039C /* UIImageView+AsynDownloadImage.m in Sources */,
 				BFDD1D7E1D5ABDB7005F129A /* main.m in Sources */,
+				BFDD1DB11D5ABF27005F129A /* StaticTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,10 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = OCLearning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = antdlx.OCLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +446,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = OCLearning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = antdlx.OCLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +521,7 @@
 				BFDD1DA81D5ABDB8005F129A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFDD1DA91D5ABDB8005F129A /* Build configuration list for PBXNativeTarget "OCLearningTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +530,7 @@
 				BFDD1DAB1D5ABDB8005F129A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFDD1DAC1D5ABDB8005F129A /* Build configuration list for PBXNativeTarget "OCLearningUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +539,7 @@
 				BFDD1DAE1D5ABDB8005F129A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
